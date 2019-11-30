@@ -5,5 +5,5 @@ resource "aws_iam_group_policy_attachment" "dev-password-change"{
 
 resource "aws_iam_group_policy_attachment" "dev-iam-read" {
   group = aws_iam_group.dev.name
-  policy_arn = "arn:aws:iam:aws:policy/IAMReadOnlyAccess"
+  policy_arn = "arn:aws:iam::aws:policy/IAMReadOnlyAccess"
 }
